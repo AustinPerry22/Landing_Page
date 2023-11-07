@@ -1,12 +1,12 @@
 <template>
-  <header>
+  <header class="sticky-top">
     <Navbar/>
   </header>
   <main>
     <router-view />
   </main>
   <footer>
-    <Footer/>
+    <MyFooter/>
   </footer>
 </template>
 
