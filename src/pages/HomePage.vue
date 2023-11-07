@@ -1,4 +1,5 @@
 <template>
+  <!-- TODO recomponitize the navbar and scroll to function -->
   <div class="container-fluid bg-dark">
     <section class="row sticky-top">
         <div class="col-2"><h5 @click="scrollToComponent('home')">Home</h5></div>
