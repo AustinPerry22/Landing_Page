@@ -1,7 +1,7 @@
 <template>
   <AboutSection/>
   <SkillList/>
-  <ProjectNavBar/>
+  <ProjectNavBar id="project-navbar"/>
   <ActiveProject/>
   <EmailForm/>
 </template>
