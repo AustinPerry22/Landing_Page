@@ -1,8 +1,5 @@
 <template>
-    <div class="container-fluid">
-        hi
-        project navbar
-    </div>
+    hi
 </template>
 
 

@@ -1,14 +1,13 @@
 <template>
-<div class="container-fluid">
-    <section class="row bg-about">
-        <div class="col-6 d-flex flex-column justify-content-center text-center">
-            name and stuff
-        </div>
-        <div class="col-6 d-flex flex-column justify-content-center text-center">
-            about me
-        </div>
-    </section>
-</div>
+
+<section class="row bg-about">
+    <div class="col-6 d-flex flex-column justify-content-center text-center">
+        name and stuff
+    </div>
+    <div class="col-6 d-flex flex-column justify-content-center text-center">
+        about me
+    </div>
+</section>
 </template>
 
 

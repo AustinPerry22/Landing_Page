@@ -1,7 +1,4 @@
 <template>
-  <header class="sticky-top">
-    <Navbar/>
-  </header>
   <main>
     <router-view />
   </main>
