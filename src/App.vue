@@ -1,4 +1,7 @@
 <template>
+  <header class="sticky-top container-fluid">
+    <NavBar/>
+  </header>
   <main>
     <router-view />
   </main>
@@ -10,14 +13,16 @@
 <script>
 import { computed } from 'vue'
 import { AppState } from './AppState'
+import NavBar from './components/NavBar.vue';
 
 
 export default {
-  setup() {
-    return {
-      appState: computed(() => AppState)
-    }
-  }
+    setup() {
+        return {
+            appState: computed(() => AppState)
+        };
+    },
+    components: { NavBar }
 }
 </script>
 <style lang="scss">

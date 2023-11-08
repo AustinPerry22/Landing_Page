@@ -1,7 +1,12 @@
 <template>
-    <div v-for="skill in skills" :key="skill.name" class="bg-logo">
-        <SkillCard :skill="skill"/>
-    </div>
+    <section class="row text-center">
+        <h4>My Skills</h4>
+    </section>
+    <section class="row">
+        <div v-for="skill in skills" :key="skill.name" class="col-3 text-center">
+            <SkillCard :skill="skill"/>
+        </div>
+    </section>
 </template>
 
 

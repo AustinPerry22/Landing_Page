@@ -62,6 +62,11 @@ export const AppState = reactive({
       name: "Keepr",
       Description: "THis is keeper",
       skillsUsed: ["C++", "C#"]
+    },
+    {
+      name: "Test",
+      Description: "THis is Test",
+      skillsUsed: ["C++", "C#"]
     }
   ],
 

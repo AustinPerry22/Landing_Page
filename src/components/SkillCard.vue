@@ -1,5 +1,5 @@
 <template>
-    {{ skill }}
+    <img :src="skill.logo" :alt="'logo of ' + skill.name" class="img-fluid skill-img">
 </template>
 
 
@@ -16,5 +16,7 @@ export default {
 
 
 <style lang="scss" scoped>
-
+.skill-img{
+    max-height: 10dvh;
+}
 </style>

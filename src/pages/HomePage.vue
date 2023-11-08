@@ -1,6 +1,5 @@
 <template>
   <div class="container-fluid bg-dark">
-    <NavBar/>
     <AboutSection id="home"/>
     <SkillList/>
     <div id="project-navbar">
