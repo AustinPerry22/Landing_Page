@@ -1,5 +1,10 @@
 <template>
     <section class="row">
+        <div class="col-12 text-center">
+            <h5>{{ activeProject.name }}</h5>
+        </div>
+    </section>
+    <section class="row">
         <div @mouseenter="toggleLinks()" @mouseleave="toggleLinks()" class="col-6 bg-project-img d-flex flex-column justify-content-center">
             <section v-show="showLinks" class="row text-center">
                 <div class="col-6">
@@ -11,8 +16,14 @@
             </section>
         </div>
         <div class="col-6">
-            <h6>{{ activeProject.name }}</h6>
-            <p>{{ activeProject.description }}</p>
+            <!-- <p>{{ activeProject.description }}</p> -->
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam a molestiae esse sed necessitatibus voluptates fuga est totam, quaerat, libero provident! Explicabo consequuntur in qui praesentium minima quos neque earum!
+            Ullam, accusantium facilis? Saepe impedit reiciendis magnam illum nam ea est voluptas dicta voluptatum accusamus. Tempora, quae consectetur neque natus quidem, tempore sed provident dolores porro qui itaque nemo harum!</p>
+            <section class="row">
+                <div v-for="skill in projectSkills" :key="skill.name" class="col-3">
+                    <SkillCard :skill="skill"/>
+                </div>
+            </section>
         </div>
     </section>
 </template>
@@ -23,22 +34,30 @@ import { AppState } from '../AppState';
 import { computed, reactive, onMounted } from 'vue';
 import { logger } from '../utils/Logger';
 export default {
-    setup(){
-        onMounted(()=> setDefaultProject())
-
-        function setDefaultProject(){
-            AppState.activeProject= AppState.projects[0]
+    setup() {
+        onMounted(() => setDefaultProject());
+        function setDefaultProject() {
+            AppState.activeProject = AppState.projects[0];
         }
-    return { 
-        activeProject: computed(() => AppState.activeProject),
-        showLinks: computed(()=> AppState.showLinks),
-        projectImg: computed(()=> `url('${AppState.activeProject.img}')`),
-
-        toggleLinks(){
-            AppState.showLinks = !AppState.showLinks
-        }
-     }
-    }
+        return {
+            activeProject: computed(() => AppState.activeProject),
+            showLinks: computed(() => AppState.showLinks),
+            projectImg: computed(() => `url('${AppState.activeProject.img}')`),
+            projectSkills: computed(()=> {
+                if(!AppState.activeProject.skillsUsed) return [];
+                let skills = [];
+                AppState.activeProject.skillsUsed.forEach(projectSkill => {
+                    const skillToAdd = AppState.skills.find(skill => skill.name == projectSkill)
+                    skills.push(skillToAdd)
+               })
+               logger.log(skills)
+               return skills
+            }),
+            toggleLinks() {
+                AppState.showLinks = !AppState.showLinks;
+            }
+        };
+    },
 };
 </script>
 

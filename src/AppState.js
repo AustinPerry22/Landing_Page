@@ -60,7 +60,7 @@ export const AppState = reactive({
   projects: [
     {
       name: "Keepr",
-      description: "THis is keeper",
+      description: "",
       img: "https://images.unsplash.com/photo-1515787366009-7cbdd2dc587b?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8cGxhY2Vob2xkZXJ8ZW58MHx8MHx8fDA%3D",
       repo: "https://github.com/AustinPerry22/Keepr",
       link: "https://github.com/AustinPerry22/Keepr",
