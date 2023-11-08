@@ -9,27 +9,51 @@ export const AppState = reactive({
   },
   {
     name: 'C#',
-    logo: '../assets/img/C#Logo (2).png'
+    logo: "src\\assets\\img\\CSharpLogo.png"
   },
   {
     name: 'C++',
-    logo: '../assets/img/C++Logo.png'
+    logo: "src\\assets\\img\\C++Logo.png"
   },
   {
     name: 'Css',
-    logo: '../assets/img/CssLogo.png'
+    logo: "src\\assets\\img\\CssLogo.png"
   },
   {
     name: 'Html',
-    logo: '../assets/img/HtmlLogo.png'
+    logo: "src\\assets\\img\\HtmlLogo.png"
   },
   {
     name: 'JS',
-    logo: '../assets/img/JSLogo.png'
+    logo: "src\\assets\\img\\JSLogo.png"
   },
   {
     name: 'Mongo',
-    logo: '../assets/img/MongoLogo.png'
+    logo: "src\\assets\\img\\MongoLogo.png"
   },
+  {
+    name: 'MySQL',
+    logo: "src\\assets\\img\\MySQLogo.png"
+  },
+  {
+    name: 'Node',
+    logo: "src\\assets\\img\\NodeLogo (2).png"
+  },
+  {
+    name: 'Python',
+    logo: "src\\assets\\img\\PythonLogo.png"
+  },
+  {
+    name: 'Scrum',
+    logo: "src\\assets\\img\\ScrumLogo (2).png"
+  },
+  {
+    name: 'VS',
+    logo: "src\\assets\\img\\VSLogo.png"
+  },
+  {
+    name: 'Vue',
+    logo: "src\\assets\\img\\VueLogo.png"
+  }
   ]
 })
