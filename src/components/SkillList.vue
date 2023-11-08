@@ -1,22 +1,22 @@
 <template>
     <div v-for="skill in skills" :key="skill.name" class="bg-logo">
-        {{ skill.name }}
-        <img :src="skill.logo" alt="">
+        <SkillCard :skill="skill"/>
     </div>
-    <SkillCard/>
 </template>
 
 
 <script>
 import { AppState } from '../AppState';
 import { computed, reactive, onMounted } from 'vue';
+import SkillCard from './SkillCard.vue';
 export default {
-    setup(){
-    return { 
-        skills: computed(()=> AppState.skills),
-        bgLogo: computed(() => AppState.skills[0].logo)
-     }
-    }
+    setup() {
+        return {
+            skills: computed(() => AppState.skills),
+            bgLogo: computed(() => AppState.skills[0].logo)
+        };
+    },
+    components: { SkillCard }
 };
 </script>
 

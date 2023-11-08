@@ -1,5 +1,9 @@
 <template>
-    hi
+    <section class="row">
+        <div v-for="project in projects" :key="project.name" class="col-3">
+            {{ project }}
+        </div>
+    </section>
 </template>
 
 
@@ -8,7 +12,9 @@ import { AppState } from '../AppState';
 import { computed, reactive, onMounted } from 'vue';
 export default {
     setup(){
-    return {  }
+    return { 
+        projects: computed(() => AppState.projects)
+     }
     }
 };
 </script>

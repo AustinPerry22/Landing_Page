@@ -55,5 +55,15 @@ export const AppState = reactive({
     name: 'Vue',
     logo: "src\\assets\\img\\VueLogo.png"
   }
-  ]
+  ],
+
+  projects: [
+    {
+      name: "Keepr",
+      Description: "THis is keeper",
+      skillsUsed: ["C++", "C#"]
+    }
+  ],
+
+  activeProject: {}
 })
