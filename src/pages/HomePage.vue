@@ -1,7 +1,9 @@
 <template>
   <div class="container-fluid bg-dark">
     <AboutSection id="home"/>
-    <SkillList/>
+    <div id="skills">
+      <SkillList/>
+    </div>
     <div id="project-navbar">
       <ProjectNavBar />
     </div>

@@ -16,9 +16,7 @@
             </section>
         </div>
         <div class="col-6">
-            <!-- <p>{{ activeProject.description }}</p> -->
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam a molestiae esse sed necessitatibus voluptates fuga est totam, quaerat, libero provident! Explicabo consequuntur in qui praesentium minima quos neque earum!
-            Ullam, accusantium facilis? Saepe impedit reiciendis magnam illum nam ea est voluptas dicta voluptatum accusamus. Tempora, quae consectetur neque natus quidem, tempore sed provident dolores porro qui itaque nemo harum!</p>
+            <p>{{ activeProject.description }}</p>
             <section class="row">
                 <div v-for="skill in projectSkills" :key="skill.name" class="col-3">
                     <SkillCard :skill="skill"/>
@@ -42,7 +40,7 @@ export default {
         return {
             activeProject: computed(() => AppState.activeProject),
             showLinks: computed(() => AppState.showLinks),
-            projectImg: computed(() => `url('${AppState.activeProject.img}')`),
+            projectImg: computed(() => `url("${AppState.activeProject.img}")`),
             projectSkills: computed(()=> {
                 if(!AppState.activeProject.skillsUsed) return [];
                 let skills = [];
