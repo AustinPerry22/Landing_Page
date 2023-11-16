@@ -2,9 +2,9 @@
     <section class="row text-center">
         <h4>My Skills</h4>
     </section>
-    <section class="row wheel-space">
-        <div v-for="skill in skills" :key="skill.name">
-            <SkillCard :skill="skill" class="wheel-item "/>
+    <section class="text-center d-flex justify-content-center align-items-center height-75">
+        <div class="wheel-space">
+            <SkillCard v-for="skill in skills" :key="skill.name" :skill="skill" class="wheel-item "/>
         </div>
     </section>
 </template>
@@ -26,16 +26,19 @@ export default {
 
 
 <style lang="scss" scoped>
-.wheel-space{
+
+.height-75{
     height: 75dvh;
+}
+.wheel-space{
+    height: 50dvh;
+    width: 50dvh;
     position: relative;
     animation: wheel-spin 75s linear infinite;
 }
 .wheel-item{
     position: absolute;
     animation: counter-wheel-spin 75s linear infinite;
-    top: 5dvh;
-    left: 45dvw;
 }
 
 @keyframes wheel-spin {
