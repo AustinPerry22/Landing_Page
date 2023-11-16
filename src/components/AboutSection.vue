@@ -18,10 +18,22 @@
 <style lang="scss" scoped>
 .bg-about{
     background-image: url(../assets/img/AboutBackground.svg);
-    background-position: center;
     background-size: cover;
+    animation: bg-anim 100s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
 }
 .row{
     height: 85dvh;
+}
+
+@keyframes bg-anim {
+    from{
+        background-position: top;background-size: 3000px;
+    }
+    to{
+        background-position: -100px 0px; background-size: 2750px;
+    }
 }
 </style>

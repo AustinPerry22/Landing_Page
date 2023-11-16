@@ -24,5 +24,8 @@ export default{
 
 
 <style lang="scss" scoped>
-
+button:hover{
+    background-color: green;
+    transform: scale(1.1);
+}
 </style>
