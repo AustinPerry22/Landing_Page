@@ -5,9 +5,9 @@
   <main>
     <router-view />
   </main>
-  <footer>
+  <div class="container-fluid" id="contact">
     <MyFooter/>
-  </footer>
+  </div>
 </template>
 
 <script>

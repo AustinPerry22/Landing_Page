@@ -6,9 +6,6 @@
       <ProjectNavBar />
     </div>
     <ActiveProject/>
-    <div id="contact">
-      <EmailForm />
-    </div>
   </div>
 </template>
 
@@ -21,7 +18,7 @@ export default {
           
         };
     },
-    components: { ProjectNavBar }
+    components: { ProjectNavBar}
 }
 </script>
 
