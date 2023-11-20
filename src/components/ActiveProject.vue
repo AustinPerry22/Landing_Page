@@ -65,7 +65,7 @@ export default {
     background-image: v-bind(projectImg);
     background-position: center;
     background-size: cover;
-    height: 40dvh;
+    height: 50dvh;
     border-radius: 1rem;
 }
 </style>

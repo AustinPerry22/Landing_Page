@@ -3,10 +3,10 @@
         <h4>My Skills</h4>
         <div class="logos">
             <div class="logos-slide">
-                <img v-for="skill in skills" :key="skill.name" :src="skill.logo"/>
+                <img v-for="skill in skills" :key="skill.name" :src="skill.logo" :alt="skill.name" :title="skill.name"/>
             </div>
             <div class="logos-slide">
-                <img v-for="skill in skills" :key="skill.name" :src="skill.logo"/>
+                <img v-for="skill in skills" :key="skill.name" :src="skill.logo" :alt="skill.name" :title="skill.name"/>
             </div>
         </div>
     </section>
