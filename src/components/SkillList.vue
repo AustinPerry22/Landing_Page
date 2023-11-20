@@ -1,12 +1,13 @@
 <template>
     <section class="row text-center">
         <h4>My Skills</h4>
-    </section>
-    <section class="text-center d-flex justify-content-center align-items-center height-75">
-        <div class="wheel-space">
-            <SkillCard v-for="skill in skills" :key="skill.name" :skill="skill" class="wheel-item "/>
+        <div class="logos">
+            <div class="logos-slide">
+                <SkillCard v-for="skill in skills" :key="skill.name" :skill="skill"/>
+            </div>
         </div>
     </section>
+    
 </template>
 
 
@@ -30,31 +31,34 @@ export default {
 .height-75{
     height: 75dvh;
 }
-.wheel-space{
-    height: 50dvh;
-    width: 50dvh;
-    position: relative;
-    animation: wheel-spin 75s linear infinite;
-}
-.wheel-item{
-    position: absolute;
-    animation: counter-wheel-spin 75s linear infinite;
+
+@keyframes slide {
+    from{
+        transform: translateX(0);
+    }
+    to{
+        transform: translateX(-100%);
+    }
 }
 
-@keyframes wheel-spin {
-    from{
-        transform: rotate(0deg);
-    }
-    to{
-        transform:  rotate(360deg);
-    }
+.logos{
+    overflow: hidden;
+    padding: 5dvh;
+    white-space: nowrap;
+    
 }
-@keyframes counter-wheel-spin {
-    from{
-        transform: rotate(360deg);
-    }
-    to{
-        transform:  rotate(0deg);
-    }
+
+.logos:hover .logos-slide{
+    animation-play-state: paused;
 }
+
+.logos-slide{
+    display: inline-block;
+    animation: 15s slide infinite linear;
+}
+
+.logos-slide img{
+    margin: 0 2.5dvw;
+}
+
 </style>
