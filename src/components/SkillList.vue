@@ -3,7 +3,10 @@
         <h4>My Skills</h4>
         <div class="logos">
             <div class="logos-slide">
-                <SkillCard v-for="skill in skills" :key="skill.name" :skill="skill"/>
+                <img v-for="skill in skills" :key="skill.name" :src="skill.logo"/>
+            </div>
+            <div class="logos-slide">
+                <img v-for="skill in skills" :key="skill.name" :src="skill.logo"/>
             </div>
         </div>
     </section>
@@ -14,14 +17,12 @@
 <script>
 import { AppState } from '../AppState';
 import { computed, reactive, onMounted } from 'vue';
-import SkillCard from './SkillCard.vue';
 export default {
     setup() {
         return {
             skills: computed(() => AppState.skills),
         };
     },
-    components: { SkillCard }
 };
 </script>
 
@@ -45,7 +46,6 @@ export default {
     overflow: hidden;
     padding: 5dvh;
     white-space: nowrap;
-    
 }
 
 .logos:hover .logos-slide{
@@ -54,10 +54,11 @@ export default {
 
 .logos-slide{
     display: inline-block;
-    animation: 15s slide infinite linear;
+    animation: 25s slide infinite linear;
 }
 
 .logos-slide img{
+    height: 10dvh;
     margin: 0 2.5dvw;
 }
 
