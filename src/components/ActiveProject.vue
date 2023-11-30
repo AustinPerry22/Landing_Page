@@ -63,7 +63,8 @@ export default {
 .bg-project-img{
     background-image: v-bind(projectImg);
     background-position: center;
-    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
     height: 50dvh;
     border-radius: 1rem;
 }
@@ -75,5 +76,11 @@ export default {
 .skill{
     height: 10dvh;
     margin: 0 2.5dvw;
+}
+
+@media screen and (max-width: 768px){
+    .bg-project-img{
+        height: 32.5dvh;
+    }
 }
 </style>

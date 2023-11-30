@@ -1,5 +1,5 @@
 <template>
-    <section class="row bg-dark text-center">
+    <section class="row bg-dark text-center py-1">
         <div class="col-4 col-md-2"><button @click="scrollToComponent('home')" class="btn btn-dark">About Me</button></div>
         <div class="col-4 col-md-2"><button @click="scrollToComponent('project-navbar')" class="btn btn-dark">Projects</button></div>
         <div class="col-4 col-md-2"><button @click="scrollToComponent('contact')" class="btn btn-dark">Contact</button></div>

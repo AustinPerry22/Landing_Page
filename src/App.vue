@@ -1,5 +1,5 @@
 <template>
-  <header class="sticky-top container-fluid">
+  <header class="order-last order-md-first sticky-bottom sticky-md-top container-fluid">
     <NavBar/>
   </header>
   <main>
