@@ -6,55 +6,67 @@ export const AppState = reactive({
   {
     name: 'Bootstrap',
     logo: "src/assets/img/BootstrapLogo.png",
-    description: "testing the description"
+    description: "I have used bootstrap on almost all of my projects."
   },
   {
     name: 'C#',
-    logo: "src/assets/img/CSharpLogo.png"
+    logo: "src/assets/img/CSharpLogo.png",
+    description: "I have used C# to write .net backends for 3+ projects at Boise Codeworks. I have also used C# in high school while making simple unity games."
   },
   {
     name: 'C++',
-    logo: "src/assets/img/C++Logo.png"
+    logo: "src/assets/img/C++Logo.png",
+    description: "In college I have take 4 computer science courses that used C++ as the main language."
   },
   {
-    name: 'Css',
-    logo: "src/assets/img/CssLogo.png"
+    name: 'CSS',
+    logo: "src/assets/img/CssLogo.png",
+    description: "I have used custom css in every web app and website I've built."
   },
   {
-    name: 'Html',
-    logo: "src/assets/img/HtmlLogo.png"
+    name: 'HTML',
+    logo: "src/assets/img/HtmlLogo.png",
+    description: "I use html in every web app and website I build."
   },
   {
-    name: 'JS',
-    logo: "src/assets/img/JSLogo.png"
+    name: 'JavaScript',
+    logo: "src/assets/img/JSLogo.png",
+    description: "I use Javascript for my front end."
   },
   {
-    name: 'Mongo',
-    logo: "src/assets/img/MongoLogo.png"
+    name: 'MongoDB',
+    logo: "src/assets/img/MongoLogo.png",
+    description: "I use MongoDb along with mongoose when I use node.js to store my data."
   },
   {
     name: 'MySQL',
-    logo: "src/assets/img/MySQLogo.png"
+    logo: "src/assets/img/MySQLogo.png",
+    description: "I use MySQL along with .net to have more control over my backend"
   },
   {
-    name: 'Node',
-    logo: "src/assets/img/NodeLogo (2).png"
+    name: 'Node.JS',
+    logo: "src/assets/img/NodeLogo (2).png",
+    description: "I use Node.JS for my backend"
   },
   {
     name: 'Python',
-    logo: "src/assets/img/PythonLogo.png"
+    logo: "src/assets/img/PythonLogo.png",
+    description: "Hssss"
   },
   {
     name: 'Scrum',
-    logo: "src/assets/img/ScrumLogo (2).png"
+    logo: "src/assets/img/ScrumLogo (2).png",
+    description: "Scrum Time"
   },
   {
-    name: 'VS',
-    logo: "src/assets/img/VSLogo.png"
+    name: 'Visual Studio',
+    logo: "src/assets/img/VSLogo.png",
+    description: "What else do ppl code in"
   },
   {
-    name: 'Vue',
-    logo: "src/assets/img/VueLogo.png"
+    name: 'Vue.JS',
+    logo: "src/assets/img/VueLogo.png",
+    description: "better than react"
   }
   ],
 

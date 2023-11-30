@@ -4,8 +4,17 @@
     <div class="col-12 col-md-6 d-flex flex-column justify-content-center text-center">
         AUSTIN PERRY
     </div>
-    <div class="col-12 col-md-6 d-flex flex-column justify-content-center text-md-center">
-        Welcome to my website! My name is Austin and I'm passionate about crafting meaningful experiences through code. My journey into the world of computer science began in high school. With over 500 hours of hands-on projects at Boise Codeworks and a foundation built in college computer science classes, I've explored both front-end and back-end development. My curiosity led me to self-guided learning in Python and React, followed by a deep dive into various programming languages and technologies at Boise Codeworks. Beyond the lines of code, I'm recognized for my resilience and helpful nature. When I'm not immersed in the digital realm, you'll find me gaming, watching movies, playing ping pong, and enjoying the company of my feline companion. Join me as I continue to evolve my skills and share the journey of a developer with a passion for creating in the ever-expanding world of technology. REWRITE THE GARBAGE!!!
+    <div class="col-12 col-md-6 d-flex flex-column justify-content-center">
+        <p>
+            Welcome to my website! I'm Austin, a full-stack software developer. I have taken courses in computer science while earning my associates in S.T.E.M. at the College of Western Idaho.  Additionally, I successfully completed the Immersive Full Stack web development course at Boise Codeworks.
+        </p>
+        <p>
+            I enjoy diving into projects and acquiring new skills. Beyond software development, you'll find me immersed in video games, movies, playing ping pong, or enjoying the company of my cat.
+        </p>
+        <p>
+            I'm excited to work with a team, eager to learn, and looking forward to the growing as as software developer and as a person.
+        </p>
+        
     </div>
 </section>
 </template>
