@@ -6,67 +6,67 @@ export const AppState = reactive({
   {
     name: 'Bootstrap',
     logo: "src/assets/img/BootstrapLogo.png",
-    description: "I have used bootstrap on almost all of my projects."
+    description: "I use bootstrap to help layout my projects faster. I then incorporate my own custom css along with bootstrap to make my projects be more visually appealing. I have used bootstrap on 30+ projects including all of the listed projects below."
   },
   {
     name: 'C#',
     logo: "src/assets/img/CSharpLogo.png",
-    description: "I have used C# to write .net backends for 3+ projects at Boise Codeworks. I have also used C# in high school while making simple unity games."
+    description: "I have used C# to write .net backends for 5+ projects at Boise Codeworks. I have also used C# in to make simple unity games."
   },
   {
     name: 'C++',
     logo: "src/assets/img/C++Logo.png",
-    description: "In college I have take 4 computer science courses that used C++ as the main language."
+    description: "I have take 4 computer science courses that used C++ as the primary language."
   },
   {
     name: 'CSS',
     logo: "src/assets/img/CssLogo.png",
-    description: "I have used custom css in every web app and website I've built."
+    description: "I use my own custom css to customize my web apps to be visually appealing. I have used my own custom css on over 30 projects including all the projects listed below."
   },
   {
     name: 'HTML',
     logo: "src/assets/img/HtmlLogo.png",
-    description: "I use html in every web app and website I build."
+    description: "I use html in every web app and website I build. 30+ projects"
   },
   {
     name: 'JavaScript',
     logo: "src/assets/img/JSLogo.png",
-    description: "I use Javascript for my front end."
+    description: "I use Javascript for my front end logic on over 25 projects."
   },
   {
     name: 'MongoDB',
     logo: "src/assets/img/MongoLogo.png",
-    description: "I use MongoDb along with mongoose when I use node.js to store my data."
+    description: "I have used MongoDb along with the mongoose orm to store my data on over 10 projects."
   },
   {
     name: 'MySQL',
     logo: "src/assets/img/MySQLogo.png",
-    description: "I use MySQL along with .net to have more control over my backend"
+    description: "I have used MySQL to have more control over my database. I have used MySQl on 5+ projects"
   },
   {
     name: 'Node.JS',
     logo: "src/assets/img/NodeLogo (2).png",
-    description: "I use Node.JS for my backend"
+    description: "I have used node.js for my backend on 10+ projects."
   },
   {
     name: 'Python',
     logo: "src/assets/img/PythonLogo.png",
-    description: "Hssss"
+    description: "I have taken the Zero to Mastery Complete Python Developer in 2023 course and completed all the projects in python associated with it."
   },
   {
     name: 'Scrum',
     logo: "src/assets/img/ScrumLogo (2).png",
-    description: "Scrum Time"
+    description: "I have practiced scrum while attending Boise Codewords on 5+ projects the most notable one being Stackify where I worked with a team of four people using scrum methodologies to stay on track."
   },
   {
-    name: 'Visual Studio',
+    name: 'Visual Studio Code',
     logo: "src/assets/img/VSLogo.png",
-    description: "What else do ppl code in"
+    description: "I have used vs code on all of my projects except my python projects where I used pycharm."
   },
   {
     name: 'Vue.JS',
     logo: "src/assets/img/VueLogo.png",
-    description: "better than react"
+    description: "I have used Vue.Js on 15+ projects for my web apps."
   }
   ],
 
