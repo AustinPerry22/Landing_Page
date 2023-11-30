@@ -19,7 +19,7 @@
 .bg-about{
     background-image: url(../assets/img/AboutBackground.svg);
     background-size: cover;
-    animation: bg-anim 10s;
+    animation: bg-anim 65s;
     animation-fill-mode: forwards;
     animation-iteration-count: infinite;
     animation-direction: alternate;
@@ -35,5 +35,15 @@
     to{
         background-position: -100px 0px; background-size: 2750px;
     }
+}
+@media screen and (max-width: 768px){
+    @keyframes bg-anim {
+    from{
+        background-position: bottom left;background-size: 350dvh;
+    }
+    to{
+        background-position: center right; background-size: 600dvh;
+    }
+}
 }
 </style>
