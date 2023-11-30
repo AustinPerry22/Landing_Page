@@ -21,7 +21,7 @@ export const AppState = reactive({
   {
     name: 'CSS',
     logo: "src/assets/img/CssLogo.png",
-    description: "I use my own custom css to customize my web apps to be visually appealing. I have used my own custom css on over 30 projects including all the projects listed below."
+    description: "I use my own custom css to customize my web apps to be visually appealing. I have used my own custom css on 30+ projects including all the projects listed below."
   },
   {
     name: 'HTML',
@@ -31,12 +31,12 @@ export const AppState = reactive({
   {
     name: 'JavaScript',
     logo: "src/assets/img/JSLogo.png",
-    description: "I use Javascript for my front end logic on over 25 projects."
+    description: "I use Javascript for my front end logic on 25+ projects."
   },
   {
     name: 'MongoDB',
     logo: "src/assets/img/MongoLogo.png",
-    description: "I have used MongoDb along with the mongoose orm to store my data on over 10 projects."
+    description: "I have used MongoDb along with the mongoose orm to store my data on 10+ projects."
   },
   {
     name: 'MySQL',
@@ -73,35 +73,35 @@ export const AppState = reactive({
   projects: [
     {
       name: "Stackify",
-      description: "Stackify is a playlist maker and event planner that allows users to customize playlists for an event. It uses the spotify Api with a Node.js backend and a vue frontend to accomplish this. I worked in a group of four for two weeks to accomplish this project",
+      description: "Stackify is a playlist maker and event music planner that allows users to customize playlists for an event. It uses the Spotify Api with a Node.js backend and a Vue.js frontend to accomplish this. I worked in a group of four for two weeks using Scrum methodologies to accomplish this project",
       img: "src/assets/img/Stackify.jpg",
       repo: "https://github.com/tylermarcott/StackifyCapstone",
       link: "https://github.com/tylermarcott/StackifyCapstone",
-      skillsUsed: ["JS", "Mongo", "Node", "Vue"]
+      skillsUsed: ["JavaScript", "MongoDB", "Node.JS", "Vue.JS", "Scrum"]
     },
     {
       name: "Keepr",
-      description: "Keepr is a social media site where users can upload pictures and save other pictures in their own collections, similar to Pinterest.",
+      description: "Keepr is a social media site where users can upload pictures(keeps) and save their own or other user's pictures into their own collections(vaults). Other features include private vaults, view counts, how many vaults your keep a keep is in, etc. The project uses a Vue.js frontend and a .NET backend with a MySQL database.",
       img: "https://images.unsplash.com/photo-1515787366009-7cbdd2dc587b?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8cGxhY2Vob2xkZXJ8ZW58MHx8MHx8fDA%3D",
       repo: "https://github.com/AustinPerry22/Keepr",
       link: "https://github.com/AustinPerry22/Keepr",
-      skillsUsed: ["C#", "JS", "MySQL", "Vue"]
+      skillsUsed: ["C#", "JavaScript", "MySQL", "Vue.JS"]
     },
     {
       name: "AllSpice",
-      description: "Allspice is a recipe sharing platform that allows users to post and browse recipes",
+      description: "Allspice is a recipe sharing app. It allows users to post and browse recipes along with a few helpful features including liking a recipe, sorting recipes by type, editing your recipes, etc. The Project uses a Vue.js frontend and a .NET backend with a MySQL database.",
       img: "https://images.unsplash.com/photo-1515787366009-7cbdd2dc587b?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8cGxhY2Vob2xkZXJ8ZW58MHx8MHx8fDA%3D",
       repo: "https://github.com/AustinPerry22/AllSpice",
       link: "https://github.com/AustinPerry22/AllSpice",
-      skillsUsed: ["C#", "JS", "MySQL", "Vue"]
+      skillsUsed: ["C#", "JavaScript", "MySQL", "Vue.JS"]
     },
     {
       name: "Tower",
-      description: "Tower is an event ticket thing that allows users to get tickets to events and stuff",
+      description: "Tower is a web application that allows users to create events that other users can get tickets to. A user can attend(get a ticket) to multiple events as long as their are enough seats. The project also includes usefull features like commenting on events, seeing who is attending, editing events, etc. The Project uses a Vue.js frontend and a Node.Js backend with a MongoDB database.",
       img: "https://images.unsplash.com/photo-1515787366009-7cbdd2dc587b?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8cGxhY2Vob2xkZXJ8ZW58MHx8MHx8fDA%3D",
       repo: "https://github.com/AustinPerry22/The_Tower",
       link: "https://github.com/AustinPerry22/The_Tower",
-      skillsUsed: ["JS", "Mongo", "Node", "Vue"]
+      skillsUsed: ["JavaScript", "MongoDB", "Node.JS", "Vue.JS"]
     }
   ],
 
