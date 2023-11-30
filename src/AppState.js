@@ -5,7 +5,8 @@ export const AppState = reactive({
   skills: [
   {
     name: 'Bootstrap',
-    logo: "src/assets/img/BootstrapLogo.png"
+    logo: "src/assets/img/BootstrapLogo.png",
+    description: "testing the description"
   },
   {
     name: 'C#',
@@ -93,5 +94,6 @@ export const AppState = reactive({
   ],
 
   activeProject: {},
+  activeSkill: null,
   showLinks: false
 })

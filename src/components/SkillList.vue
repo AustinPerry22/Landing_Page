@@ -3,11 +3,18 @@
         <h4>My Skills</h4>
         <div class="logos">
             <div class="logos-slide">
-                <img v-for="skill in skills" :key="skill.name" :src="skill.logo" :alt="skill.name" :title="skill.name"/>
+                <img v-for="skill in skills" @click="changeActiveSkill(skill)" :key="skill.name" :src="skill.logo" :alt="skill.name" :title="skill.name" class="selectable"/>
             </div>
             <div class="logos-slide">
-                <img v-for="skill in skills" :key="skill.name" :src="skill.logo" :alt="skill.name" :title="skill.name"/>
+                <img v-for="skill in skills" @click="changeActiveSkill(skill)" :key="skill.name" :src="skill.logo" :alt="skill.name" :title="skill.name" class="selectable"/>
             </div>
+        </div>
+        <div v-if="activeSkill">
+            <h5>{{ activeSkill.name }}</h5>
+            <p>{{ activeSkill.description }}</p>
+        </div>
+        <div v-else>
+            <p>Click a skill to view more about it</p>
         </div>
     </section>
     
@@ -21,6 +28,11 @@ export default {
     setup() {
         return {
             skills: computed(() => AppState.skills),
+            activeSkill: computed(()=> AppState.activeSkill),
+
+            changeActiveSkill(skill){
+                AppState.activeSkill = skill;
+            }
         };
     },
 };
