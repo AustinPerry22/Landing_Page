@@ -60,13 +60,9 @@ export default {
     white-space: nowrap;
 }
 
-.logos:hover .logos-slide{
-    animation-play-state: paused;
-}
-
 .logos-slide{
     display: inline-block;
-    animation: 25s slide infinite linear;
+    animation: 20s slide infinite linear;
 }
 
 .logos-slide img{

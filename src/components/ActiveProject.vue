@@ -4,8 +4,8 @@
             <h5>{{ activeProject.name }}</h5>
         </div>
     </section>
-    <section class="row">
-        <div @mouseenter="toggleLinks()" @mouseleave="toggleLinks()" class="col-6 bg-project-img d-flex flex-column justify-content-center">
+    <section class="row justify-content-center">
+        <div @mouseenter="toggleLinks()" @mouseleave="toggleLinks()" class="col-11 col-md-6 bg-project-img d-flex flex-column justify-content-center">
             <section v-show="showLinks" class="row text-center">
                 <div class="col-6">
                     <a :href="activeProject.repo" target="_blank"><button class="btn btn-dark"><i class="mdi mdi-github fs-1"></i></button></a>
@@ -15,12 +15,11 @@
                 </div>
             </section>
         </div>
-        <div class="col-6">
+        <div class="col-11 col-md-6">
             <p>{{ activeProject.description }}</p>
-            <section class="row">
-                <div v-for="skill in projectSkills" :key="skill.name" class="col-3">
-                    <SkillCard :skill="skill"/>
-                </div>
+            <h6 class="text-center">Major Skills used</h6>
+            <section class="skills">
+                <img v-for="skill in projectSkills" :key="skill.name" :src="skill.logo" :alt="skill.name" :title="skill.name" class="skill"/>
             </section>
         </div>
     </section>
@@ -67,5 +66,14 @@ export default {
     background-size: cover;
     height: 50dvh;
     border-radius: 1rem;
+}
+.skills{
+    display: flexbox;
+    text-align: center;
+}
+
+.skill{
+    height: 10dvh;
+    margin: 0 2.5dvw;
 }
 </style>

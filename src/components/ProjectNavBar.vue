@@ -3,7 +3,7 @@
         <h4>My Projects</h4>
     </section>
     <section class="row">
-        <div v-for="project in projects" :key="project.name" class="col-3">
+        <div v-for="project in projects" :key="project.name" class="col-3 text-center">
             <button @click="setActiveProject(project.name)" class="btn btn-dark">{{ project.name }}</button>
         </div>
     </section>
