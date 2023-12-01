@@ -82,7 +82,7 @@ export const AppState = reactive({
     {
       name: "Keepr",
       description: "Keepr is a social media site where users can upload pictures(keeps) and save their own or other user's pictures into their own collections(vaults). Other features include private vaults, view counts, how many vaults your keep a keep is in, etc. The project uses a Vue.js frontend and a .NET backend with a MySQL database.",
-      img: "https://images.unsplash.com/photo-1515787366009-7cbdd2dc587b?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8cGxhY2Vob2xkZXJ8ZW58MHx8MHx8fDA%3D",
+      img: "src/assets/img/keepr.PNG",
       repo: "https://github.com/AustinPerry22/Keepr",
       link: "https://github.com/AustinPerry22/Keepr",
       skillsUsed: ["C#", "JavaScript", "MySQL", "Vue.JS"]
@@ -90,7 +90,7 @@ export const AppState = reactive({
     {
       name: "AllSpice",
       description: "Allspice is a recipe sharing app. It allows users to post and browse recipes along with a few helpful features including liking a recipe, sorting recipes by type, editing your recipes, etc. The Project uses a Vue.js frontend and a .NET backend with a MySQL database.",
-      img: "https://images.unsplash.com/photo-1515787366009-7cbdd2dc587b?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8cGxhY2Vob2xkZXJ8ZW58MHx8MHx8fDA%3D",
+      img: "src/assets/img/allspice.PNG",
       repo: "https://github.com/AustinPerry22/AllSpice",
       link: "https://github.com/AustinPerry22/AllSpice",
       skillsUsed: ["C#", "JavaScript", "MySQL", "Vue.JS"]
