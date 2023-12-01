@@ -98,7 +98,7 @@ export const AppState = reactive({
     {
       name: "Tower",
       description: "Tower is a web application that allows users to create events that other users can get tickets to. A user can attend(get a ticket) to multiple events as long as their are enough seats. The project also includes usefull features like commenting on events, seeing who is attending, editing events, etc. The Project uses a Vue.js frontend and a Node.Js backend with a MongoDB database.",
-      img: "https://images.unsplash.com/photo-1515787366009-7cbdd2dc587b?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8cGxhY2Vob2xkZXJ8ZW58MHx8MHx8fDA%3D",
+      img: "src/assets/img/tower.PNG",
       repo: "https://github.com/AustinPerry22/The_Tower",
       link: "https://github.com/AustinPerry22/The_Tower",
       skillsUsed: ["JavaScript", "MongoDB", "Node.JS", "Vue.JS"]

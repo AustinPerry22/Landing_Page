@@ -1,10 +1,10 @@
 <template>
-  <div class="container-fluid bg-dark">
+  <div class="container-fluid bg-dark pb-5">
     <AboutSection id="home"/>
-    <div id="skills">
+    <div id="skills" class="mt-4">
       <SkillList/>
     </div>
-    <div id="project-navbar">
+    <div id="project-navbar" class="mt-4">
       <ProjectNavBar />
     </div>
     <ActiveProject/>
