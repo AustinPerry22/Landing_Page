@@ -1,5 +1,5 @@
 <template>
-<section class="row justify-content-center text-center pb-3 bg-primary">
+<section class="row justify-content-center text-center pb-3 bg-secondary">
     <div class="pt-2 col-12">
         <h5>Contact Me</h5>
     </div>

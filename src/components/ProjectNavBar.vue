@@ -29,7 +29,7 @@ export default {
 
 <style lang="scss" scoped>
 button:hover{
-    background-color: green;
+    background-color: #635985;
     transform: scale(1.1);
 }
 </style>

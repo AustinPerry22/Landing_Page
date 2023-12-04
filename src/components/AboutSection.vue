@@ -29,9 +29,7 @@
     background-image: url(../assets/img/AboutBackground.svg);
     background-size: cover;
     animation: bg-anim 65s;
-    animation-fill-mode: forwards;
-    animation-iteration-count: infinite;
-    animation-direction: alternate;
+    animation-fill-mode: infinite alternate forwards;
 }
 .row{
   height: 85dvh;

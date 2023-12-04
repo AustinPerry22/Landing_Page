@@ -78,6 +78,11 @@ export default {
     margin: 0 2.5dvw;
 }
 
+button:hover{
+    background-color: #635985;
+    transform: scale(1.1);
+}
+
 @media screen and (max-width: 768px){
     .bg-project-img{
         height: 32.5dvh;
