@@ -26,31 +26,10 @@
 
 <style lang="scss" scoped>
 .bg-about{
-    background-image: url(../assets/img/AboutBackground.svg);
-    background-size: cover;
-    animation: bg-anim 65s;
-    animation-fill-mode: infinite alternate forwards;
+    background-image: url(https://loading.io/asset/706744);
+    background-size: contain;
 }
 .row{
   height: 85dvh;
-}
-
-@keyframes bg-anim {
-    from{
-        background-position: top;background-size: 3000px;
-    }
-    to{
-        background-position: -100px 0px; background-size: 2750px;
-    }
-}
-@media screen and (max-width: 768px){
-    @keyframes bg-anim {
-    from{
-        background-position: bottom left;background-size: 350dvh;
-    }
-    to{
-        background-position: center right; background-size: 600dvh;
-    }
-}
 }
 </style>
