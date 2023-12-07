@@ -4,11 +4,13 @@
         <h3>Contact Me</h3>
     </div>
     <div class="col-6">
-        <p class="contact-link">austinjperry22@gmail.com</p>
+        <p class="contact-link"><i class="mdi mdi-email"></i> austinjperry22@gmail.com</p>
     </div>
     <div class="col-6">
         <p class="contact-link">
-            <a href="https://www.linkedin.com/in/austin-perry22/" target="_blank">linkedin</a>
+            <a href="https://www.linkedin.com/in/austin-perry22/" target="_blank">
+                Linked<i class="mdi mdi-linkedin"></i>
+            </a>
         </p>
     </div>
 </section>
