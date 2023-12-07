@@ -16,8 +16,8 @@
             </section>
         </div>
         <div class="col-11 col-md-6 d-flex flex-column align-items-center">
-            <p class="ms-4">{{ activeProject.description }}</p>
-            <h5 class="text-center bottom-border w-50 mt-5">Main Skills used</h5>
+            <p class="ms-md-4">{{ activeProject.description }}</p>
+            <h5 class="text-center bottom-border w-50 mt-2 mt-md-5">Main Skills used</h5>
             <section class="skills">
                 <img v-for="skill in projectSkills" :key="skill.name" :src="skill.logo" :alt="skill.name" :title="skill.name" class="skill"/>
             </section>

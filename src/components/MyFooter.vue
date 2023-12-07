@@ -3,10 +3,10 @@
     <div class="pt-2 col-12">
         <h3>Contact Me</h3>
     </div>
-    <div class="col-6">
+    <div class="col-12 col-md-6">
         <p class="contact-link"><i class="mdi mdi-email"></i> austinjperry22@gmail.com</p>
     </div>
-    <div class="col-6">
+    <div class="col-12 col-md-6">
         <p class="contact-link">
             <a href="https://www.linkedin.com/in/austin-perry22/" target="_blank">
                 Linked<i class="mdi mdi-linkedin"></i>

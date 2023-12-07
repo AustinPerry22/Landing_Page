@@ -60,4 +60,10 @@
         background-position: 85% right; background-size: 3000px;
     }
 }
+
+@media screen and (max-width: 768px){
+    #name-title{
+        font-size: 46px;
+    }
+}
 </style>
