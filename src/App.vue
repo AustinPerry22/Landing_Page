@@ -38,4 +38,9 @@ footer {
   place-content: center;
   height: 32px;
 }
+header,
+main,
+footer{
+  font-family: "Roboto Slab", Arial, Helvetica, sans-serif;
+}
 </style>

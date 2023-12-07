@@ -26,10 +26,34 @@
 
 <style lang="scss" scoped>
 .bg-about{
-    background-image: url(https://loading.io/asset/706744);
-    background-size: contain;
+    background-image: url(https://images.unsplash.com/photo-1668681919287-7367677cdc4c?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    animation: bg-anim 65s;
+    animation-fill-mode: forwards;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
 }
+
 .row{
   height: 85dvh;
+}
+
+@keyframes bg-anim {
+    from{
+        background-position: top left;background-size: 3000px;
+    }
+    25%{
+        background-position: 25% 10%;
+    }
+    50%{
+        background-position: 50% 25%;
+    }
+    75%{
+        background-position: 75% 75%;
+    }
+    to{
+        background-position: 85% right; background-size: 3000px;
+    }
 }
 </style>
