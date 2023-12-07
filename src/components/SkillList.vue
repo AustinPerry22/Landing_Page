@@ -1,6 +1,6 @@
 <template>
     <section class="row text-center">
-        <h4>My Skills</h4>
+        <h3>My Skills</h3>
         <div class="logos">
             <div class="logos-slide">
                 <img v-for="skill in skills" @click="changeActiveSkill(skill)" :key="skill.name" :src="skill.logo" :alt="skill.name" :title="skill.name" class="selectable"/>
@@ -10,7 +10,7 @@
             </div>
         </div>
         <div v-if="activeSkill">
-            <h5>{{ activeSkill.name }}</h5>
+            <h4>{{ activeSkill.name }}</h4>
             <p>{{ activeSkill.description }}</p>
         </div>
         <div v-else>

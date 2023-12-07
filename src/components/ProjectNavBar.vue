@@ -1,6 +1,6 @@
 <template>
     <section class="row text-center">
-        <h4>My Projects</h4>
+        <h3>My Projects</h3>
     </section>
     <section class="row">
         <div v-for="project in projects" :key="project.name" class="col-3 text-center">

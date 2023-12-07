@@ -2,7 +2,7 @@
 
 <section class="row bg-about">
     <div class="col-12 col-md-6 d-flex flex-column justify-content-center text-center">
-        AUSTIN PERRY
+        <p id="name-title">AUSTIN PERRY</p>
     </div>
     <div class="col-12 col-md-6 d-flex flex-column justify-content-center">
         <p>
@@ -25,6 +25,10 @@
 
 
 <style lang="scss" scoped>
+
+#name-title{
+    font-size: 56px;
+}
 .bg-about{
     background-image: url(https://images.unsplash.com/photo-1668681919287-7367677cdc4c?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
     background-size: cover;

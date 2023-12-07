@@ -43,4 +43,18 @@ main,
 footer{
   font-family: "Roboto Slab", Arial, Helvetica, sans-serif;
 }
+
+::-webkit-scrollbar {
+    width: 15px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: rgb(0, 87, 36);
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #18122B;
+}
+
 </style>

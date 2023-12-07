@@ -1,7 +1,7 @@
 <template>
     <section class="row">
-        <div class="col-12 text-center">
-            <h5>{{ activeProject.name }}</h5>
+        <div class="col-12 text-center my-3">
+            <h4>{{ activeProject.name }}</h4>
         </div>
     </section>
     <section class="row justify-content-center">
@@ -15,9 +15,9 @@
                 </div>
             </section>
         </div>
-        <div class="col-11 col-md-6">
-            <p>{{ activeProject.description }}</p>
-            <h6 class="text-center">Major Skills used</h6>
+        <div class="col-11 col-md-6 d-flex flex-column align-items-center">
+            <p class="ms-4">{{ activeProject.description }}</p>
+            <h5 class="text-center bottom-border w-50 mt-5">Main Skills used</h5>
             <section class="skills">
                 <img v-for="skill in projectSkills" :key="skill.name" :src="skill.logo" :alt="skill.name" :title="skill.name" class="skill"/>
             </section>
@@ -67,6 +67,10 @@ export default {
     background-size: 100% 100%;
     height: 50dvh;
     border-radius: 1rem;
+}
+
+.bottom-border{
+  border-bottom: 3px solid #18122B;
 }
 .skills{
     display: flexbox;
