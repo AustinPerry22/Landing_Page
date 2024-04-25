@@ -1,11 +1,12 @@
 import { reactive } from 'vue'
+import bootstrapLogo from "./assets/img/BootstrapLogo.png";
 
 // NOTE AppState is a reactive object to contain app level data
 export const AppState = reactive({
   skills: [
   {
     name: 'Bootstrap',
-    logo: "/src/assets/img/BootstrapLogo.png",
+    logo: bootstrapLogo,
     description: "I use bootstrap to help layout my projects faster. I then incorporate my own custom css along with bootstrap to make my projects be more visually appealing. I have used bootstrap on 30+ projects including all of the listed projects below."
   },
   {
