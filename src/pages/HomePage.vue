@@ -7,11 +7,17 @@
     <div id="project-navbar" class="mt-4">
       <ProjectNavBar />
     </div>
-    <ActiveProject/>
+    <div id="active-project" class="pb-3 bottom-border">
+      <ActiveProject/>
+    </div>
+    <div id="contact-form" class="pt-5">
+      <ContactForm/>
+    </div>
   </div>
 </template>
 
 <script>
+import ContactForm from '../components/ContactForm.vue';
 import ProjectNavBar from '../components/ProjectNavBar.vue';
 
 export default {
@@ -20,7 +26,7 @@ export default {
           
         };
     },
-    components: { ProjectNavBar}
+    components: { ProjectNavBar, ContactForm }
 }
 </script>
 
