@@ -42,7 +42,7 @@ export default {
 <style lang="scss" scoped>
 
 .height-75{
-    height: 75dvh;
+    height: 75lvh;
 }
 
 @keyframes slide {
@@ -56,7 +56,7 @@ export default {
 
 .logos{
     overflow: hidden;
-    padding: 5dvh;
+    padding: 5lvh;
     white-space: nowrap;
 }
 
@@ -66,8 +66,9 @@ export default {
 }
 
 .logos-slide img{
-    height: 10dvh;
+    height: 10lvh;
     margin: 0 2.5dvw;
 }
+
 
 </style>
