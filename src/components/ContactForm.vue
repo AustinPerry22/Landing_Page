@@ -45,4 +45,7 @@ setup() {
     border-color: rgb(18, 20, 88);
     border-width: .75em;
 }
+button:hover{
+    transform: scale(1.1);
+}
 </style>

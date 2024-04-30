@@ -91,12 +91,12 @@ export const AppState = reactive({
 
   projects: [
     {
-      name: "Stackify",
-      description: "Stackify is a playlist maker and event music planner that allows users to customize playlists for an event. It uses the Spotify Api with a Node.js backend and a Vue.js frontend to accomplish this. I worked in a group of four for two weeks using Scrum methodologies to accomplish this project",
-      img: StackifyPic,
-      repo: "https://github.com/tylermarcott/StackifyCapstone",
-      link: "https://stackify-jch3.onrender.com/",
-      skillsUsed: ["JavaScript", "MongoDB", "Node.JS", "Vue.JS", "Scrum"]
+      name: "Tower",
+      description: "Tower is a web application that allows users to create events that other users can get tickets to. A user can attend(get a ticket) to multiple events as long as their are enough seats. The project also includes usefull features like commenting on events, seeing who is attending, editing events, etc. The Project uses a Vue.js frontend and a Node.Js backend with a MongoDB database.",
+      img: towerPic,
+      repo: "https://github.com/AustinPerry22/The_Tower",
+      link: "https://tower.austinperry.dev",
+      skillsUsed: ["Vue.JS", "Node.JS", "MongoDB"]
     },
     {
       name: "Keepr",
@@ -104,23 +104,25 @@ export const AppState = reactive({
       img: keeprPic,
       repo: "https://github.com/AustinPerry22/Keepr",
       link: "https://keepr.austinperry.dev",
-      skillsUsed: ["C#", "JavaScript", "MySQL", "Vue.JS"]
+      skillsUsed: ["Vue.JS", "C#", "MySQL"]
     },
+    
+    {
+      name: "Stackify",
+      description: "Stackify is a playlist maker and event music planner that allows users to customize playlists for an event. It uses the Spotify Api with a Node.js backend and a Vue.js frontend to accomplish this. I worked in a group of four for two weeks using Scrum methodologies to accomplish this project",
+      img: StackifyPic,
+      repo: "https://github.com/tylermarcott/StackifyCapstone",
+      link: "https://stackify-jch3.onrender.com/",
+      skillsUsed: ["Vue.JS", "Node.JS", "MongoDB"]
+    },
+    
     {
       name: "AllSpice",
       description: "Allspice is a recipe sharing app. It allows users to post and browse recipes along with a few helpful features including liking a recipe, sorting recipes by type, editing your recipes, etc. The Project uses a Vue.js frontend and a .NET backend with a MySQL database.",
       img: allspicePic,
       repo: "https://github.com/AustinPerry22/AllSpice",
       link: "https://allspice.austinperry.dev",
-      skillsUsed: ["C#", "JavaScript", "MySQL", "Vue.JS"]
-    },
-    {
-      name: "Tower",
-      description: "Tower is a web application that allows users to create events that other users can get tickets to. A user can attend(get a ticket) to multiple events as long as their are enough seats. The project also includes usefull features like commenting on events, seeing who is attending, editing events, etc. The Project uses a Vue.js frontend and a Node.Js backend with a MongoDB database.",
-      img: towerPic,
-      repo: "https://github.com/AustinPerry22/The_Tower",
-      link: "https://tower.austinperry.dev",
-      skillsUsed: ["JavaScript", "MongoDB", "Node.JS", "Vue.JS"]
+      skillsUsed: ["Vue.JS", "C#", "MySQL"]
     }
   ],
 

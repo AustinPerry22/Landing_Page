@@ -3,10 +3,10 @@
         <h3>My Skills</h3>
         <div class="logos">
             <div class="logos-slide">
-                <img v-for="skill in skills" @click="changeActiveSkill(skill)" :key="skill.name" :src="skill.logo" :alt="skill.name" :title="skill.name" class="selectable"/>
+                <img v-for="skill in skills" @click="changeActiveSkill(skill)" :key="skill.name" :src="skill.logo" :alt="skill.name" :title="skill.name" class="skill-img"/>
             </div>
             <div class="logos-slide">
-                <img v-for="skill in skills" @click="changeActiveSkill(skill)" :key="skill.name" :src="skill.logo" :alt="skill.name" :title="skill.name" class="selectable"/>
+                <img v-for="skill in skills" @click="changeActiveSkill(skill)" :key="skill.name" :src="skill.logo" :alt="skill.name" :title="skill.name" class="skill-img"/>
             </div>
         </div>
         <div v-if="activeSkill">
@@ -14,7 +14,7 @@
             <p>{{ activeSkill.description }}</p>
         </div>
         <div v-else>
-            <p>Click a skill to view more about it</p>
+            <p>*Click a skill to view more about it</p>
         </div>
     </section>
     
@@ -43,6 +43,11 @@ export default {
 
 .height-75{
     height: 75lvh;
+}
+
+.skill-img:hover{
+    transform: scale(1.2);
+    cursor: pointer;
 }
 
 @keyframes slide {

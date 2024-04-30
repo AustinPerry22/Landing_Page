@@ -5,24 +5,26 @@
         </div>
     </section>
     <section class="row justify-content-center">
-        <div @mouseenter="toggleLinks()" @mouseleave="toggleLinks()" class="col-11 col-md-6 bg-project-img d-flex flex-column justify-content-center">
-            <section v-show="showLinks" class="row text-center">
-                <div class="col-6">
-                    <a :href="activeProject.repo" target="_blank"><button class="btn btn-dark"><i class="mdi mdi-github fs-1"></i></button></a>
-                </div>
-                <div class="col-6">
-                    <a :href="activeProject.link" target="_blank"><button class="btn btn-dark"><i class="mdi mdi-web fs-1"></i></button></a>
-                </div>
-            </section>
-        </div>
-        <div class="col-11 col-md-6 d-flex flex-column align-items-center">
+        <div class="col-11 col-md-6 bg-project-img"></div>
+        <div class="col-11 col-md-6">
             <p class="ms-md-4">{{ activeProject.description }}</p>
-            <h5 class="text-center bottom-border w-50 mt-2 mt-md-5">Main Skills used</h5>
-            <section class="skills">
-                <img v-for="skill in projectSkills" :key="skill.name" :src="skill.logo" :alt="skill.name" :title="skill.name" class="skill"/>
+            <section class="row justify-content-center">
+                <h5 class="text-center bottom-border w-50 mt-2 mt-md-5">Tech Stack Used</h5>
+                <section class="skills">
+                    <img v-for="skill in projectSkills" :key="skill.name" :src="skill.logo" :alt="skill.name" :title="skill.name" class="skill"/>
+                </section>
+            </section>
+            <section class="row text-center">
+                <div class="col-6">
+                    <a :href="activeProject.repo" target="_blank"><button class="btn btn-dark fs-2"><i class="mdi mdi-github"></i> Repo Link</button></a>
+                </div>
+                <div class="col-6">
+                    <a :href="activeProject.link" target="_blank"><button class="btn btn-dark fs-2"><i class="mdi mdi-web"></i> Live Site</button></a>
+                </div>
             </section>
         </div>
     </section>
+    
 </template>
 
 
