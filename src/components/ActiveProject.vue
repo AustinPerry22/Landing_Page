@@ -68,7 +68,7 @@ export default {
     background-position: center;
     background-repeat: no-repeat;
     background-size: 100% 100%;
-    height: 50dvh;
+    height: 50vh;
     border-radius: 1rem;
 }
 
@@ -81,7 +81,7 @@ export default {
 }
 
 .skill{
-    height: 10dvh;
+    height: 10vh;
     margin: 0 2.5dvw;
 }
 

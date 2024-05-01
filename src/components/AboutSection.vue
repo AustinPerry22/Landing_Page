@@ -46,7 +46,7 @@
 }
 
 .row{
-  height: 85dvh;
+  height: 85vh;
 }
 
 @keyframes bg-anim {
@@ -72,7 +72,7 @@
         font-size: 46px;
     }
     .row{
-        height: 125dvh;
+        height: 125vh;
     }
 }
 </style>

@@ -42,7 +42,7 @@ export default {
 <style lang="scss" scoped>
 
 .height-75{
-    height: 75lvh;
+    height: 75vh;
 }
 
 .skill-img:hover{
@@ -61,7 +61,7 @@ export default {
 
 .logos{
     overflow: hidden;
-    padding: 5lvh;
+    padding: 5vh;
     white-space: nowrap;
 }
 
@@ -71,7 +71,7 @@ export default {
 }
 
 .logos-slide img{
-    height: 10lvh;
+    height: 10vh;
     margin: 0 2.5dvw;
 }
 
