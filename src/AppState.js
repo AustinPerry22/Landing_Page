@@ -25,47 +25,47 @@ export const AppState = reactive({
   {
     name: 'Bootstrap',
     logo: bootstrapLogo,
-    description: "I use bootstrap to help layout my projects faster. I then incorporate my own custom css along with bootstrap to make my projects be more visually appealing. I have used bootstrap on 30+ projects including all of the listed projects below."
+    description: "I use Bootstrap to expedite the layout of my projects including all the ones listed below. I then blend it seamlessly with custom CSS to increase the visual appeal of the projects."
   },
   {
     name: 'C#',
     logo: CSharpLogo,
-    description: "I have used C# to write .net backends for 5+ projects at Boise Codeworks. I have also used C# in to make simple unity games."
+    description: "I use C# to develop my .NET backends including keepr and allspice (listed below)."
   },
   {
     name: 'C++',
     logo: CplusLogo,
-    description: "I have take 4 computer science courses that used C++ as the primary language."
+    description: "I've completed four computer science courses at CWI, all centered around C++ as the primary language."
   },
   {
     name: 'CSS',
     logo: CssLogo,
-    description: "I use my own custom css to customize my web apps to be visually appealing. I have used my own custom css on 30+ projects including all the projects listed below."
+    description: "I use custom CSS to enhance the visual appeal of all of my web applications, including all listed below."
   },
   {
     name: 'HTML',
     logo: HtmlLogo,
-    description: "I use html in every web app and website I build. 30+ projects"
+    description: "HTML serves as the foundation for every web app and website I build, with over 30 projects utilizing it."
   },
   {
     name: 'JavaScript',
     logo: JSLogo,
-    description: "I use Javascript for my front end logic on 25+ projects."
+    description: "Javascript is my go-to language for front end logic across all my web applications. Additionally, I use it for back-end development when utilizing Node.js."
   },
   {
     name: 'MongoDB',
     logo: MongoLogo,
-    description: "I have used MongoDb along with the mongoose orm to store my data on 10+ projects."
+    description: "I incorporate MongoDB with Node.js for database functionality in my web applications."
   },
   {
     name: 'MySQL',
     logo: MySQLLogo,
-    description: "I have used MySQL to have more control over my database. I have used MySQl on 5+ projects"
+    description: "I use MySQL when I need more control over my databases. I have used MySQL on 5+ projects including keepr and allspice (listed below)."
   },
   {
     name: 'Node.JS',
     logo: NodeLogo,
-    description: "I have used node.js for my backend on 10+ projects."
+    description: "I have used Node.js to develop the backends of 10+ projects including stackify and tower (listed below)."
   },
   {
     name: 'Python',
@@ -75,50 +75,49 @@ export const AppState = reactive({
   {
     name: 'Scrum',
     logo: ScrumLogo,
-    description: "I have practiced scrum while attending Boise Codewords on 5+ projects the most notable one being Stackify where I worked with a team of four people using scrum methodologies to stay on track."
+    description: "I have practiced scrum while attending Boise Codewords on multiple projects the most notable one being stackify where I worked with a team of four people using scrum methodologies to stay on track."
   },
   {
     name: 'Visual Studio Code',
     logo: VSLogo,
-    description: "I have used vs code on all of my projects except my python projects where I used pycharm."
+    description: "I've utilized VS Code for all my projects, except for Python projects, where I've opted for PyCharm."
   },
   {
     name: 'Vue.JS',
     logo: VueLogo,
-    description: "I have used Vue.Js on 15+ projects for my web apps."
+    description: "Vue.js has been my framework of choice for most of my projects, including all of the projects listed below."
   }
   ],
 
   projects: [
     {
-      name: "Tower",
-      description: "Tower is a web application that allows users to create events that other users can get tickets to. A user can attend(get a ticket) to multiple events as long as their are enough seats. The project also includes usefull features like commenting on events, seeing who is attending, editing events, etc. The Project uses a Vue.js frontend and a Node.Js backend with a MongoDB database.",
-      img: towerPic,
-      repo: "https://github.com/AustinPerry22/The_Tower",
-      link: "https://tower.austinperry.dev",
-      skillsUsed: ["Vue.JS", "Node.JS", "MongoDB"]
-    },
-    {
-      name: "Keepr",
-      description: "Keepr is a social media site where users can upload pictures(keeps) and save their own or other user's pictures into their own collections(vaults). Other features include private vaults, view counts, how many vaults your keep a keep is in, etc. The project uses a Vue.js frontend and a .NET backend with a MySQL database.",
-      img: keeprPic,
-      repo: "https://github.com/AustinPerry22/Keepr",
-      link: "https://keepr.austinperry.dev",
-      skillsUsed: ["Vue.JS", "C#", "MySQL"]
-    },
-    
-    {
       name: "Stackify",
-      description: "Stackify is a playlist maker and event music planner that allows users to customize playlists for an event. It uses the Spotify Api with a Node.js backend and a Vue.js frontend to accomplish this. I worked in a group of four for two weeks using Scrum methodologies to accomplish this project",
+      description: "Stackify is a music application tailored for event planners and amateur DJs. It allows users to create playlists for events, add silent time blocks, and access song metadata such as BPM, dancibility, and key. Stackify uses the Spotify API with PCKE authorization to allow users to add songs and play them directly from the web app. Stackify was built in two weeks by four developers utilizing Scrum methodologies. ONLY WORKS WITH SPOTIFY PREMIUM due to the use of Spotify's api.",
       img: StackifyPic,
       repo: "https://github.com/tylermarcott/StackifyCapstone",
       link: "https://stackify-jch3.onrender.com/",
       skillsUsed: ["Vue.JS", "Node.JS", "MongoDB"]
     },
+    {
+      name: "Keepr",
+      description: "Keepr is a social media site where users can upload pictures(keeps) and save their own or other user's pictures into their own collections(vaults). Other features include private vaults, view counts, tracking how many vaults a keep is in, and more.",
+      img: keeprPic,
+      repo: "https://github.com/AustinPerry22/Keepr",
+      link: "https://keepr.austinperry.dev",
+      skillsUsed: ["Vue.JS", "C#", "MySQL"]
+    },
+    {
+      name: "Tower",
+      description: "Tower is a dynamic web application designed for managing events. Tower enables users to create and attend events while keeping track of the tickets available. Beyond event creation and attendance, Tower has additional functionalities such as commenting on events, attendee tracking, event editing, and more.",
+      img: towerPic,
+      repo: "https://github.com/AustinPerry22/The_Tower",
+      link: "https://tower.austinperry.dev",
+      skillsUsed: ["Vue.JS", "Node.JS", "MongoDB"]
+    },
     
     {
       name: "AllSpice",
-      description: "Allspice is a recipe sharing app. It allows users to post and browse recipes along with a few helpful features including liking a recipe, sorting recipes by type, editing your recipes, etc. The Project uses a Vue.js frontend and a .NET backend with a MySQL database.",
+      description: "Allspice is a recipe sharing app. It allows users to post and browse recipes along with a few helpful features including liking a recipe, sorting recipes by type, editing your recipes, etc.",
       img: allspicePic,
       repo: "https://github.com/AustinPerry22/AllSpice",
       link: "https://allspice.austinperry.dev",

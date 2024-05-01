@@ -19,7 +19,7 @@
 
 <style lang="scss" scoped>
 button:hover{
-    background-color: #635985;
+    background-color: #2e31ffe3;
     transform: scale(1.1);
 }
 .text-footer{

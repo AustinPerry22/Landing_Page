@@ -6,15 +6,13 @@
     </div>
     <div class="col-12 col-md-6 d-flex flex-column justify-content-center">
         <p class="text-bg">
-            Welcome to my website! I'm Austin, a full-stack software developer.
+            Welcome to my website! I'm Austin, a passionate full-stack software developer.
             <br><br>
-            I have taken courses in computer science while earning an Associates of Science (AS) in S.T.E.M. at the College of Western Idaho.
-            <br><br>
-            I have successfully completed the Immersive Full Stack Web Development Course at Boise Codeworks. 
+            I have an Associates of Science (AS) in S.T.E.M. from the College of Western Idaho, where I completed multiple computer science courses. I further honed my skills by successfully completing the Immersive Full Stack Web Development Course at Boise Codeworks.
             <br><br>
             I enjoy diving into projects and acquiring new skills. Beyond software development, you'll find me immersed in video games, movies, playing ping pong, or enjoying the company of my cat. 
             <br><br>
-            I'm excited to work with a team, eager to learn, and looking forward to growing as a software developer and as a person.
+            I'm excited to work with a team, eager to learn, and looking forward to growing as a software developer and as a person. If you'd like to connect or to collaborate please feel free to reach out to me on <a target="blank" href="https://www.linkedin.com/in/austin-perry22/">Linkedin</a> or by using the contact form provided below.
         </p>
         
     </div>
