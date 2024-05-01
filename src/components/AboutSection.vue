@@ -71,5 +71,8 @@
     #name-title{
         font-size: 46px;
     }
+    .row{
+        height: 125dvh;
+    }
 }
 </style>

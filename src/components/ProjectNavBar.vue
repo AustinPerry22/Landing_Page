@@ -2,9 +2,9 @@
     <section class="row text-center">
         <h3>My Projects</h3>
     </section>
-    <section class="row bg-dark rounded-3 m-3 py-1">
-        <div v-for="project in projects" :key="project.name" class="col-3 text-center">
-            <button :disabled="activeProjectName==project.name" @click="setActiveProject(project.name)" class="btn btn-dark">{{ project.name }}</button>
+    <section class="row bg-dark rounded-3 m-1 m-md-3 py-1">
+        <div v-for="project in projects" :key="project.name" class="col-6 col-md-3 py-1 py-md-0 text-center">
+            <button :disabled="activeProjectName==project.name" @click="setActiveProject(project.name)" class="btn btn-dark w-100">{{ project.name }}</button>
         </div>
     </section>
 </template>

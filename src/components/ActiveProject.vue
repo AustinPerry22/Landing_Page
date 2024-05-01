@@ -16,7 +16,7 @@
                     </section>
                 </section>
             </section>
-            <section class="row text-center">
+            <section class="row text-center mt-5 mt-md-0">
                 <div class="col-6">
                     <a :href="activeProject.repo" target="_blank"><button class="btn btn-dark fs-2"><i class="mdi mdi-github"></i> Repo Link</button></a>
                 </div>
@@ -51,7 +51,6 @@ export default {
                     const skillToAdd = AppState.skills.find(skill => skill.name == projectSkill)
                     skills.push(skillToAdd)
                })
-               logger.log(skills)
                return skills
             }),
             toggleLinks() {
