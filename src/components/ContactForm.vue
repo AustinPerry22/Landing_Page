@@ -6,6 +6,7 @@
 
       <!-- Form Inputs. Each input must have a name="" attribute -->
       <section class="row justify-content-center">
+        <div class="h-captcha" data-captcha="true"></div> 
         <div class="col-12 col-md-6">
           <label for="name">Name:</label>
           <input class="form-control" type="text" placeholder="your name" name="name" required>
@@ -18,7 +19,6 @@
           <label for="message">Message:</label>
           <textarea class="form-control" name="message" type="text" maxlength="2000" rows="12" placeholder="write your message here" required></textarea>
         </div>
-        <div class="h-captcha" data-captcha="true"></div> 
         <button class="btn btn-success col-6 col-md-3" type="submit">Submit Form</button>
       </section>
     </form>
@@ -43,7 +43,7 @@ setup() {
       const hCaptcha = hCaptchaElement.value
 
       if (!hCaptcha){
-        Pop.error("Please fill our captcha")
+        Pop.error("Please fill out the captcha")
         event.preventDefault()
         return
       }
